@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- header for app // firsr part .................................................................. -->
+    <header class="header">
+        <nav class="nav-bar">
+            <a >  <img class="Logo-app" src="Papirus-Team-Papirus-Apps-Weather.512.png" alt="Logo"></a>
+            <a href="http://">Home</a>
+            <a href="http://">About</a>
+            <a href="http://">More</a>
+        </nav>
+    </header>
+    <hr>
+
+<!-- main part of web sit // second part ........................................................... -->
+
+<main class="main-part">
+     <div class="input-button">
+           <input id="Search-city" type="text" placeholder=" Enter city name "> 
+          <button id="btn-city"> Search <i class="fa-solid fa-magnifying-glass"></i></button>
+     </div>
+     <div class="weather-show">
+        <div class="first">
+            <p class="fir" id="img-fist"><img src='search.png' alt='temp icon' width='150'> </p>
+            <p class="fir" id="weather_data"> whether?</p>
+            <p class="fir-tem" id="tempracture">tempracture?</p>
+            <p class="fir" id="city_name">city name?</p>
+        </div>
+        <div class="second">
+            <p class="sec" id="humidity">humidity?</p>
+            <p class="sec" id="feels-like">feels-like?</p>
+             <p class="sec" id="wind">wind?</p>
+              <h1  id="error"></h1>
+        </div>
+         
+        </div>
+   
+</main>
+<hr>
+<!-- footer part  // third part..................................................................  -->
+  <footer class="footer">
+    <span>     &copy; ajit in 2025</span>
+    <span> • Weather App  <i class="fa-solid fa-cloud-sun"></i></span>
+  </footer>
+    <script src="script.js"></script>
+</body>
+</html>

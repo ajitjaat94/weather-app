@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --primary-color: #ffffff; /* Blue */
+  --secondary-color: #3cde33; /* Gray */
+  --font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --base-spacing: 0.50rem;
+  --font-weight-primary: 700;
+  --font-size-primary: 1.5rem;
+  --font-size-secondary: 1.2rem;
+}
+body {
+  background-image: linear-gradient(rgb(0 0 255 / 0.5), rgb(255 255 0 / 0.5)),
+    url("globe.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  display: flex;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+a {
+  font-family: var(--font-stack);
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: var(--base-spacing);
+  font-weight: var(--font-weight-primary);
+  font-size: var(--font-size-primary);
+  cursor: pointer;
+  
+}
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 255, 255);
+  transition: 1s ease;
+  text-underline-offset: 15px;
+}
+.Logo-app {
+  height: 60px;
+}
+/* part second style  */
+
+main {
+  /* background: linear-gradient(50deg, #64dd68,#1a58ca, #ff33fc); */
+  /* background-image:
+  linear-gradient(rgb(0 0 255 / 0.5), rgb(255 255 0 / 0.5)),
+  url("globe.png"); */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.input-button {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+input {
+  padding: 10px;
+
+  width: 40vw;
+  border-bottom-left-radius: 20px;
+  border: none;
+}
+button {
+  padding: 10px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  border-top-right-radius: 20px;
+}
+.weather-show {
+  text-align: center;
+}
+.first {
+  /* background-color: rgb(255, 255, 255); */
+  padding: 10px;
+}
+.fir {
+  font-size: var(--font-size-primary);
+}
+.fir-tem {
+  font-size: 5rem;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9vw;
+  padding: calc(var(--base-spacing) * 1.25);
+  border-radius: 15px;
+  margin-top: var(--base-spacing);
+}
+
+.sec {
+  font-size: 2rem;
+  font-family: var(--font-stack);
+  color: black;
+  text-align: center;
+  padding: calc(var(--base-spacing) * 0.9) calc(var(--base-spacing) * 1.5);
+  border-radius: 10px;
+  font-weight: var(--font-weight-primary);
+  text-transform: capitalize;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.853);
+  min-width: 120px;
+}
+
+#error {
+  color: #ff0000;
+  font-size: var(--font-size-primary);
+  font-family: var(--font-stack);
+  text-align: center;
+  margin: 0;
+  font-weight: var(--font-weight-primary);
+}
+.footer{
+    height: 40px;
+    text-align: center;
+}
+.footer span{
+    font-size: var(--font-size-primary);
+    font-family:var(--font-stack);
+
+    
+}
