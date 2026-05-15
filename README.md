@@ -15,4 +15,5 @@ A simple and clean Weather App built using HTML, CSS, and JavaScript. It fetches
 1. Enter any city name.
 2. Click the search button.
 3. The app will show real-time weather details.
+4. update soon 🔜 
 
