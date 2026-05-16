@@ -1,19 +1,30 @@
-## weather-app
-A simple and clean Weather App built using HTML, CSS, and JavaScript. It fetches real-time weather data from the OpenWeather API and shows temperature, humidity, wind speed, and weather conditions with a smooth and responsive UI.
+# 🌦️ Weather App – Safety & Stability Update
 
-## Screenshot
-![weather-app screenshot](./Screenshot%202025-11-18%20074306.png)
+## 🔒 Safety Improvements
+- Added better error handling for failed API requests.
+- Improved input validation for city search.
+- Prevented app crashes caused by empty or invalid responses.
+- Added fallback UI when weather data is unavailable.
+- Improved loading and network state management.
 
-## Features
-- Real-time weather data
-- Temperature, humidity, wind speed
-- Weather icon and condition
-- Clean and responsive UI
-- Fetches data using OpenWeather API
+## ⚡ Performance & Stability
+- Optimized API fetching process.
+- Reduced unnecessary re-renders.
+- Improved overall app responsiveness.
+- Fixed minor UI glitches and stability issues.
+- Enhanced mobile responsiveness and smoother experience.
 
-  ## How to Use
-1. Enter any city name.
-2. Click the search button.
-3. The app will show real-time weather details.
-4. update soon 🔜 
+## 🎨 UI/UX Enhancements
+- Improved weather card layout and readability.
+- Updated icons and visual consistency.
+- Better user feedback for loading and errors.
+- Cleaner interface for a more modern look.
 
+## 🛠️ Technical Updates
+- Refactored components for cleaner code structure.
+- Improved state management logic.
+- Updated dependencies and project organization.
+- Added reusable utility functions.
+
+## ✅ Current Status
+The Weather App is now more stable, secure, and user-friendly with improved performance and better handling of edge cases.
